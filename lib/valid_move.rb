@@ -5,7 +5,7 @@ index= index.to_i
 if index.between?(1,9) && position_taken?(board,index -1) == false
   return false
 else
-  return false
+  return true
 end
 
 end
