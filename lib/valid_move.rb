@@ -4,9 +4,9 @@ def valid_move?(board, index)
 index= index.to_i
 if index.between?(1,9) && position_taken?(board,index -1) == false
   return true
-else 
+else
   return false
-end 
+end
 
 end
 
